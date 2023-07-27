@@ -1,1 +1,1 @@
-print("Hello, World!")
+print("The way its meant to be played")
