@@ -1,6 +1,4 @@
 FROM python
-
-
-COPY . .
-
-CMD [ "python", "./your-daemon-or-script.py" ]
+RUN mkdir /animate
+COPY hello.py /animate/
+CMD [ "python", "./animate/hello.py" ]
